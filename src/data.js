@@ -1,7 +1,7 @@
 export const classify = [
   {
-    name: "数组",
-    nums: "1330",
+    name: "生活碎片",
+    nums: "7",
   },
   {
     name: "字符串",

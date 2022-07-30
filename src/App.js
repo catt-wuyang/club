@@ -1,10 +1,12 @@
 import "./App.css";
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { classify } from "./data";
-import Post from "./fragments/2022.06.js";
 
 function HomePage() {
-  const showAll = function () {};
+  useEffect(() => {}, []);
 
+  const showAll = function () {};
   return (
     <div className="wrap">
       <header className="header">
@@ -25,8 +27,10 @@ function HomePage() {
           </span>
         </div>
 
-        <div className="article">
-          <Post />
+        <div className="docpage">
+          <Link to="/docs/20220622">六月的碎片，我的回忆</Link>
+          <Link to="/docs/20211122">十一月，往事与回想</Link>
+          <Link to="/docs/20200322">生活在我们身边的房思琪</Link>
         </div>
       </div>
     </div>

@@ -6,6 +6,7 @@ body {
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   font-variant: tabular-nums;
   font-feature-settings: "tnum";
-  font-size: 14px;
-  color: rgb(26, 26, 26);
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgb(34, 34, 34);
 }

@@ -18,6 +18,7 @@
   width: 978px;
   margin: 0 auto;
   font-family: Optima-Regular, PingFangTC-light;
+  padding-bottom: 60px;
 }
 
 .classify {
@@ -64,4 +65,27 @@
   position: absolute;
   z-index: 1;
   right: 0;
+}
+
+.article {
+  width: 728px;
+  font-size: 19px;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  color: rgb(34, 34, 34);
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.article p {
+  margin: 28px 0;
+}
+
+.article img {
+  width: 100%;
+}
+
+.article strong {
+  list-style: none;
+  text-decoration: underline;
 }
