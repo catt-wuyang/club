@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { classify } from "./data";
+import Post from "./fragments/2022.06.js";
 
-function App() {
+function HomePage() {
+  const showAll = function () {};
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="wrap">
+      <header className="header">
+        <div className="title">揣兜猫</div>
       </header>
+      <div className="content">
+        <div className="classify">
+          {classify.map((c) => {
+            return (
+              <div className="classify-item">
+                <span className="classify-name">{c.name}</span>
+                <span className="classify-nums">{c.nums}</span>
+              </div>
+            );
+          })}
+          <span className="expend-btn" onClick={showAll()}>
+            展开
+          </span>
+        </div>
+
+        <div className="article">
+          <Post />
+        </div>
+      </div>
     </div>
   );
 }
 
-export default App;
+export default HomePage;
