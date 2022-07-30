@@ -11,8 +11,8 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/catt" element={<App />} />
-        <Route path="/catt/docs/:pageId" element={<DocPage />} />
+        <Route path="/" element={<App />} />
+        <Route path="docs/:pageId" element={<DocPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
