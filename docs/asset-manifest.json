@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "https://catt-wuyang.github.io/catt/static/css/main.1fe9c911.css",
-    "main.js": "https://catt-wuyang.github.io/catt/static/js/main.09b7ff63.js",
+    "main.js": "https://catt-wuyang.github.io/catt/static/js/main.8f44b669.js",
     "static/js/302.88105bb5.chunk.js": "https://catt-wuyang.github.io/catt/static/js/302.88105bb5.chunk.js",
     "static/js/551.2edcbfde.chunk.js": "https://catt-wuyang.github.io/catt/static/js/551.2edcbfde.chunk.js",
     "static/js/513.78cd9b5d.chunk.js": "https://catt-wuyang.github.io/catt/static/js/513.78cd9b5d.chunk.js",
     "static/js/529.01bd024f.chunk.js": "https://catt-wuyang.github.io/catt/static/js/529.01bd024f.chunk.js",
     "index.html": "https://catt-wuyang.github.io/catt/index.html",
     "main.1fe9c911.css.map": "https://catt-wuyang.github.io/catt/static/css/main.1fe9c911.css.map",
-    "main.09b7ff63.js.map": "https://catt-wuyang.github.io/catt/static/js/main.09b7ff63.js.map",
+    "main.8f44b669.js.map": "https://catt-wuyang.github.io/catt/static/js/main.8f44b669.js.map",
     "302.88105bb5.chunk.js.map": "https://catt-wuyang.github.io/catt/static/js/302.88105bb5.chunk.js.map",
     "551.2edcbfde.chunk.js.map": "https://catt-wuyang.github.io/catt/static/js/551.2edcbfde.chunk.js.map",
     "513.78cd9b5d.chunk.js.map": "https://catt-wuyang.github.io/catt/static/js/513.78cd9b5d.chunk.js.map",
@@ -16,6 +16,6 @@
   },
   "entrypoints": [
     "static/css/main.1fe9c911.css",
-    "static/js/main.09b7ff63.js"
+    "static/js/main.8f44b669.js"
   ]
 }
