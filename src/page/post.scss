@@ -1,22 +1,69 @@
-.article {
+.post-content {
+  background-color: #f7f7f7;
+}
+
+.post {
   width: 728px;
   font-size: 19px;
   line-height: 1.6;
   letter-spacing: 0.5px;
   color: rgb(34, 34, 34);
+  background-color: #fff;
   text-align: justify;
+  padding: 0 56px;
   margin: 0 auto;
-}
+  font-family: Optima-Regular, PingFangTC-light;
 
-.article p {
-  margin: 28px 0;
-}
+  h1,
+  h2,
+  h3 {
+    padding-top: 28px;
+    margin: 0;
+  }
 
-.article img {
-  width: 100%;
-}
+  em {
+    display: block;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(118, 118, 118, 0.8);
+    margin-top: -14px;
+    margin-bottom: -6px;
+    font-style: normal;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+  }
 
-.article strong {
-  list-style: none;
-  text-decoration: underline;
+  img {
+    width: 100%;
+  }
+
+  p {
+    margin: 28px 0;
+  }
+
+  strong {
+    list-style: none;
+    text-decoration: underline;
+  }
+
+  blockquote {
+    color: rgba(118, 118, 118, 0.8);
+    position: relative;
+    z-index: 1;
+    padding-left: 42px;
+
+    &:before {
+      content: "";
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      background-image: url("https://i.postimg.cc/hv0w1v61/640-4.png");
+      background-size: cover;
+      background-position: center;
+    }
+  }
 }

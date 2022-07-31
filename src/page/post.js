@@ -12,8 +12,8 @@ function DocPage() {
   }, []);
 
   return (
-    <div className="content">
-      <div className="article">
+    <div className="post-content">
+      <div className="post">
         <ReactMarkdown children={post} />
       </div>
     </div>
