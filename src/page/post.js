@@ -1,3 +1,4 @@
+import "./post.scss";
 import React, { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 
@@ -5,9 +6,9 @@ function DocPage() {
   const [post, setPost] = useState("");
 
   useEffect(() => {
-    const pathnames = window.location.pathname.split("/");
-    const pageId = pathnames[pathnames.length - 1];
-    import(`./fragments/${pageId}.md`).then((res) => setPost(res.default));
+    const hashnames = window.location.hash.split("/");
+    const pageId = hashnames[hashnames.length - 1];
+    import(`../fragments/${pageId}.md`).then((res) => setPost(res.default));
   }, []);
 
   return (

@@ -1,6 +1,6 @@
 {
-  "name": "catt",
-  "version": "0.1.0",
+  "name": "catt.club",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
@@ -64,8 +64,7 @@
   },
   "scripts": {
     "start": "NODE_ENV=development BABEL_ENV=development node scripts/start.js",
-    "build": "PUBLIC_URL='/club' BUILD_PATH='./docs' NODE_ENV=production BABEL_ENV=production node scripts/build.js",
-    "test": "node scripts/test.js"
+    "build": "PUBLIC_URL='/club' BUILD_PATH='./docs' NODE_ENV=production BABEL_ENV=production node scripts/build.js"
   },
   "eslintConfig": {
     "extends": [
@@ -140,5 +139,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.54.0"
   }
 }
