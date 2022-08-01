@@ -66,46 +66,6 @@ function HomePage() {
               </Link>
             );
           })}
-
-          <div className="docpage-item">
-            <div className="post-cover"></div>
-            <div className="post-preview-content">
-              <div className="post-preview-title">
-                阅览室 2022 年 4 月工作简报
-              </div>
-              <div className="post-preview-description">
-                各位好： 过去三个月中，在我们筹备阅览室产品的同时，阅览室的 13
-                位共同发起人也花了许多时间一起讨论、确定了阅览室的「原则」。今天是世界读书日。虽然谈论的并非如何阅读书籍，但我们仍然想在这个日子里和大家分享这份文本——毕竟一年之中我们能讨论阅读、思考阅读的意义的日子并不是很多。…
-              </div>
-              <div className="post-others">catt_wuyang|无恙 APR 12</div>
-            </div>
-          </div>
-          <div className="docpage-item">
-            <div className="post-cover"></div>
-            <div className="post-preview-content">
-              <div className="post-preview-title">
-                阅览室 2022 年 4 月工作简报
-              </div>
-              <div className="post-preview-description">
-                各位好： 过去三个月中，在我们筹备阅览室产品的同时，阅览室的 13
-                位共同发起人也花了许多时间一起讨论、确定了阅览室的「原则」。今天是世界读书日。虽然谈论的并非如何阅读书籍，但我们仍然想在这个日子里和大家分享这份文本——毕竟一年之中我们能讨论阅读、思考阅读的意义的日子并不是很多。…
-              </div>
-              <div className="post-others">catt_wuyang|无恙 APR 12</div>
-            </div>
-          </div>
-          <div className="docpage-item">
-            <div className="post-cover"></div>
-            <div className="post-preview-content">
-              <div className="post-preview-title">
-                阅览室 2022 年 4 月工作简报
-              </div>
-              <div className="post-preview-description">
-                各位好： 过去三个月中，在我们筹备阅览室产品的同时，阅览室的 13
-                位共同发起人也花了许多时间一起讨论、确定了阅览室的「原则」。今天是世界读书日。虽然谈论的并非如何阅读书籍，但我们仍然想在这个日子里和大家分享这份文本——毕竟一年之中我们能讨论阅读、思考阅读的意义的日子并不是很多。…
-              </div>
-              <div className="post-others">catt_wuyang|无恙 APR 12</div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
