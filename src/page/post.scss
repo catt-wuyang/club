@@ -12,6 +12,7 @@
   text-align: justify;
   padding: 0 56px;
   margin: 0 auto;
+  padding-bottom: 112px;
   font-family: Optima-Regular, PingFangTC-light;
 
   h1,
@@ -65,5 +66,36 @@
       background-size: cover;
       background-position: center;
     }
+  }
+
+  ol,
+  ul {
+    padding-left: 28px;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 28px 0;
+  }
+
+  code {
+    font: 14px Monaco, "Courier New", "DejaVu Sans Mono",
+      "Bitstream Vera Sans Mono", monospace;
+    color: #52595d;
+    background-color: #f9f9f9;
+    padding: 4px 6px;
+    display: inline-block;
+    margin: 0px;
+  }
+
+  pre {
+    border: 1px solid #cacaca;
+    line-height: 20px;
+    padding: 10px;
+    overflow: auto;
+    background-color: #f7f7f7;
+    color: rgba(118, 118, 118, 0.8);
+    margin: 0px;
   }
 }
